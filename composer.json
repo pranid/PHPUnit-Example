@@ -1,0 +1,25 @@
+{
+    "name": "praneeth/php-unit-example",
+    "type": "project",
+    "require": {
+        "php": "7.3.5"
+    },
+    "authors": [
+        {
+            "name": "Praneeth Nidarshan",
+            "email": "praneeth.nidarshan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPUnitExample\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
